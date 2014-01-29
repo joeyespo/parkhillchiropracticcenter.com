@@ -1,0 +1,4 @@
+# Misc and OS files
+Desktop.ini             # Directory atttributes in Windows.
+Thumbs.db               # Picture thumbnail cache in Windows 98.
+.DS_Store               # Directory attributes in Mac OS X.
