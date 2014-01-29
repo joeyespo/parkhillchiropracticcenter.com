@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* Device-specific */
+@media (min-width: 992px) {
+  .container {
+    width: 1000px;
+  }
+  section {
+    text-align: left;
+  }
+  .map-container {
+    text-align: right;
+  }
+  .address {
+    text-align: right;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    text-align: center;
+  }
+  .photo.extra {
+    display: none;
+  }
+  .map-container {
+    margin-top: 24px;
+    text-align: center;
+  }
+  .address {
+    text-align: center;
+  }
+}
+
+/* Page styles */
+body {
+  background: white;
+  min-width: 700px;
+}
+h1 {
+  margin-top: 0;
+}
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+a {
+  color: #333;
+}
+a:hover {
+  color: #38f;
+}
+
+header {
+  background: #555;
+  height: 120px;
+  color: white;
+}
+
+.title {
+  padding: 32px 32px 0 32px;
+}
+.title a {
+  color: white;
+  font-weight: bold;
+}
+.photo {
+  display: block;
+  float: left;
+  border-left: 1px solid #333;
+  height: 120px;
+  width: auto;
+}
+
+section {
+  border: 1px solid #d8d8d8;
+  border-top: none;
+  border-radius: 0 3px;
+  background: #f5f5f5;
+  padding: 32px;
+}
+
+.block {
+  display: inline-block;
+  text-align: left;
+}
+
+.hours-table {
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 24px;
+}
+.hours-table td {
+  padding: 6px 0;
+}
+.hours-table .day {
+  font-weight: bold;
+  width: 120px;
+}
+.hours-table .ampm {
+  font-variant: small-caps;
+}
+
+.contact-table {
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 24px;
+}
+.contact-table td {
+  padding: 6px 0;
+}
+.contact-table .phone-type {
+  font-weight: bold;
+  width: 120px;
+}
+
+.map {
+  display: inline-block;
+}
+.map a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid #888;
+  max-width: 482px;
+}
+.map a:hover {
+  outline: 2px solid #38f;
+}
+.map a img {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+.address a {
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 0 0 0;
+}
+
+footer {
+  color: #999;
+  margin: 12px 0;
+  text-align: left;
+}
+footer a {
+  color: #aaa;
+  font-weight: bold;
+}
+footer a:hover {
+  color: #888;
+}
